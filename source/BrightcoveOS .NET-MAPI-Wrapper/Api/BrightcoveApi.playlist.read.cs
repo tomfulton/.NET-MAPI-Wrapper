@@ -87,7 +87,7 @@ namespace BrightcoveMapiWrapper.Api
 		public BrightcoveItemCollection<BrightcovePlaylist> FindAllPlaylists(int pageSize, int pageNumber, SortBy sortBy, SortOrder sortOrder, IEnumerable<string> videoFields,
 																			 IEnumerable<string> playlistFields, IEnumerable<string> customFields)
 		{
-			return FindAllPlaylists(pageSize, pageNumber, sortBy, sortOrder, videoFields, playlistFields, customFields, false);
+		    return FindAllPlaylists(pageSize, pageNumber, sortBy, sortOrder, videoFields, playlistFields, customFields, true);
 		}
 
 		/// <summary>
